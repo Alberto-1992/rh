@@ -1,0 +1,523 @@
+@import url("//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css");
+.login-block{
+
+float:left;
+width:100%;
+height: 100%;
+padding : 50px 0;
+}
+
+.line-cabecera{
+    width: 100%;
+    height: 10px;
+    background-color:#00A4EC;
+}
+.logos-hraei{
+    width: 100%;
+    height: 100px;
+    background: rgb(255, 255, 255);
+}
+.menu{
+    width: 100%;
+    height: 40px;
+    background-color: #00A4EC;
+    color: yellow;
+}
+footer {
+    background-color: #00A4EC;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    color: white;
+  }
+  .final{
+    width: 100%;
+    height: 80px;
+    background-color: #00A4EC;
+    color: white;
+    margin-top: 5px;
+    float: left;
+    margin-left: 0px;
+  }
+ 
+  #logo1{
+      width: 150px;
+      height: 90px;
+      margin-top: 5px;
+      background-color: none;
+
+      border-radius: 25px;
+      margin-left: auto;
+      margin-right: auto;
+      background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbNIGjQwMRYhvjMiXYRxAO7XiFrk9pcpd1hA&usqp=CAU);
+      background-repeat: no-repeat;
+      background-size: 100%;
+  }
+  #logo2{
+    width: 250px;
+    height: 90px;
+    margin-top: 5px;
+    background-color: none;
+    border-radius: 25px;
+    float: right;
+    margin-right: 40px;
+    background-image: url(https://www.unotv.com/portal/unotv/imagenes_galeria/158953-GaleriaUno.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+p{
+    text-align: center;
+    
+}
+.contenido{
+    width: 280px;
+    height: 270px;
+    margin-top: 200px;
+    float: left;
+    margin-left: 45%;
+ 
+
+}
+#imagen{
+    width: 300px;
+    height: 410px;
+    background-color: white;
+    background-image: url(../frontend/imagenes/btnObjetivos_2.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    border-radius: 20px;
+    float: left;
+    margin-left: 22%;
+    margin-top: 250px;
+    cursor: pointer;
+    outline: 0;
+}
+#imagenC2{
+    width: 300px;
+    height: 410px;
+    background-color: white;
+    background-image: url(../frontend/imagenes/btnEvaComp.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    border-radius: 20px;
+    float: right;
+    margin-right: 20%;
+    margin-top: 250px;
+    cursor: pointer;
+    outline: 0;
+    
+}
+.menuContenido{
+    width: 100%;
+    height: 40px;
+    background-color: #E7E7E7;
+    margin-top:2px;
+}
+.Descripcion{
+    width: 97%;
+    height: 5px;
+    margin-top: 5px;
+    margin-left: 25px;
+    background-color: rgb(41, 5, 204);
+    border: 1px solid grey;
+    border-radius: 5px;
+  
+}
+
+.imagenMetas2{
+    width: 35%;
+    height: 98%;
+    background-color: rgba(255, 255, 255, 0.1);
+    background-image: url(https://comunicacionytransmediacomar.files.wordpress.com/2019/10/planificacic3b3n-estratc3a9gica-1.png);
+    background-repeat: no-repeat;
+    background-size: 100%, 50%;
+    background-position: center;
+    float: left;
+    margin-left: 2%;
+    margin-top: -6%;
+    cursor: pointer;
+}
+
+.datosGenerales{
+    width: 62%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    float: right;
+    margin-top: 10%;
+    margin-right: 10px;
+   
+}
+.datosGenerales>p{
+    margin-top: 25px;
+    color: black;
+    font-size: 23px;
+    text-align: left;
+}
+.contenidoMenu{
+    width: 100%;
+    height: 32px;
+    background: rgb(27, 27, 27);
+    margin-top: -17px;
+}
+
+* {
+	margin: 0px;
+	padding: 0px; 
+    outline: 0;
+}
+
+#menu {
+	text-align: center;
+	font-size: 0.7em;
+	width: 1040px;
+	margin: 20px auto;
+}
+
+#menu ul {
+	list-style-type: none;
+}
+
+#menu ul li {
+	width: 182px;
+}
+
+#menu ul li a {
+	display: block;
+    text-decoration: none;
+	color: rgb(0, 0, 0);
+	background-color: rgb(255, 255, 255);
+	margin-top: 0px;
+    padding: 6px;
+    font-size: 13px;
+	position: relative;
+}
+
+#menu ul li ul li a {
+	width: 282px;
+	padding: 8px 0px;
+	border-top-color: transparent;
+}
+
+#menu ul li ul {
+	display: none;
+}
+
+/* PROPIEDADES ESPECÍFICAS */
+
+#menu ul li ul li ul li a.primera {
+	border-top-color: #fff;
+}
+
+#menu ul li.nivel1 { 
+	float: left;
+    margin-right: 1px;
+
+}
+
+#menu ul li a.nivel2 {
+	color: #000;
+}
+
+#menu ul li a.nivel1, #menu ul li a.nivel2 {
+	display: block;
+	position: relative;
+}
+
+/* PROPIEDAD HOVER */
+
+#menu ul li:hover {
+	position: relative;
+}
+
+#menu ul li a:hover, #menu ul li:hover a.nivel1 {
+	background-color: #6CC;
+	color: #000;
+	position: relative;
+}
+
+#menu ul li:hover  ul.nivel2, #menu ul li a:hover  ul.nivel2{
+	display: block;
+    position: absolute;left: 0px;
+    z-index: 1000;
+}
+
+#menu ul li ul li a:hover ul.nivel3, #menu ul li ul li:hover ul.nivel3 {
+	display: block;
+	position: absolute;
+	left: 181px;
+    top:0px;
+    z-index: 2000;
+    
+}
+
+#menu ul li ul li a:hover {
+	border-top-color: #000;
+	position: relative;
+}
+
+.datosEvaluado{
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+
+}
+
+
+
+.datosEvaluado2{
+    width: 97%;
+    height: auto;
+    border: 1px solid black;
+    margin-top: 15px;
+    float: left;
+    margin-left: 25px;
+}
+.datosEvaluado>h1{
+    font-size: 25px;
+    font-style: italic;
+    float: left;
+    margin-left: 45px;
+    margin-top: 15px;
+}
+.datosEvaluado2>h1{
+    font-size: 25px;
+    font-style: italic;
+    float: left;
+    margin-left: 45%;
+    margin-top: auto;
+ 
+}
+
+.datosEvaluador{
+    width: 97%;
+    height: auto;
+    border: 1px solid black;
+    margin-top: 15px;
+    float: left;
+    margin-left: 25px;
+}
+.datosEvaluador2{
+    width: 97%;
+    height: auto;
+    border: 1px solid black;
+    margin-top: 15px;
+    float: left;
+    margin-left: 25px;
+}
+.datosEvaluador>h1{
+    font-size: 25px;
+    font-style: italic;
+    float: left;
+    margin-left: 45px;
+    margin-top: 15px;
+}
+.datosEvaluador2>h1{
+    font-size: 25px;
+    font-style: italic;
+    float: left;
+    margin-left: 45px;
+    margin-top: 15px;
+}
+body{
+   
+ background: white;
+   
+}
+.all{
+    
+     background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+ }
+.contenedor-sec{
+    width: 100%;
+    height: 1075px;
+    background-color: rgb(255,255,255);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.instrucciones{
+    width: 100%;
+    height: 100px;
+    color: rgb(255,255,255);
+    margin-top: 30px;
+    
+    
+}
+#vacio{
+    width: 100%;
+    height: 160px;
+}
+#cuerpo{
+    width: 100%;
+    height: 750px;
+  background: rgb(255,255,255);
+background: -moz-linear-gradient(left, rgb(255,255,255) 15%, rgb(255,255,255) 28%, rgb(229,250,209) 61%, rgb(229,250,209) 95%);
+background: -webkit-gradient(left top, right top, color-stop(15%, rgb(255,255,255)), color-stop(28%, rgb(255,255,255)), color-stop(61%, rgb(229,250,209)), color-stop(95%, rgb(229,250,209)));
+background: -webkit-linear-gradient(left, rgb(255,255,255) 15%, rgb(255,255,255) 28%, rgb(229,250,209) 61%, rgb(229,250,209) 95%);
+background: -o-linear-gradient(left, rgb(255,255,255) 15%, rgb(255,255,255) 28%, rgb(229,250,209) 61%, rgb(229,250,209) 95%);
+background: -ms-linear-gradient(left, rgb(255,255,255) 15%, rgb(255,255,255) 28%, rgb(229,250,209) 61%, rgb(229,250,209) 95%);
+background: linear-gradient(to right, rgb(255,255,255) 15%, rgb(255,255,255) 28%, rgb(229,250,209) 61%, rgb(229,250,209) 95%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5fad1', GradientType=1 ); margin-left: auto;
+  margin-right: auto;
+}
+#cuerpo2{
+    width: 100%;
+    height: 630px;
+  background: rgb(255,255,255);
+background: -moz-linear-gradient(left, rgb(255,255,255) 15%, rgb(255,255,255) 28%, rgb(229,250,209) 61%, rgb(229,250,209) 95%);
+background: -webkit-gradient(left top, right top, color-stop(15%, rgb(255,255,255)), color-stop(28%, rgb(255,255,255)), color-stop(61%, rgb(229,250,209)), color-stop(95%, rgb(229,250,209)));
+background: -webkit-linear-gradient(left, rgb(255,255,255) 15%, rgb(255,255,255) 28%, rgb(229,250,209) 61%, rgb(229,250,209) 95%);
+background: -o-linear-gradient(left, rgb(255,255,255) 15%, rgb(255,255,255) 28%, rgb(229,250,209) 61%, rgb(229,250,209) 95%);
+background: -ms-linear-gradient(left, rgb(255,255,255) 15%, rgb(255,255,255) 28%, rgb(229,250,209) 61%, rgb(229,250,209) 95%);
+background: linear-gradient(to right, rgb(255,255,255) 15%, rgb(255,255,255) 28%, rgb(229,250,209) 61%, rgb(229,250,209) 95%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5fad1', GradientType=1 ); margin-left: auto;
+  margin-right: auto;
+}
+#objetivo{
+    width: 100%;
+    height: 50px;
+    background-color: #acacac;
+}
+#mySelect{
+    width: 600px;
+    height: 25px;
+    float: left;
+    margin-left: 150px;
+    margin-top: 10px;
+}
+#strong{
+    float: left;
+    margin-left: 160px;
+    
+}
+.instrucciones>#h1{
+    
+    font-size: 21px;
+    text-align: center;
+    font-style: oblique;
+    color: rgb(255, 255, 255);
+}
+#objetivo>#h1{
+    
+    font-size: 20px;
+    text-align: center;
+    font-style: oblique;
+    color: rgb(255, 255, 255);
+}
+.instrucciones>#h2{
+    
+    font-size: 18px;
+    text-align: center;
+    font-style: italic;
+    margin-top: -10px;
+}
+#textarea{
+    float: left;
+    margin-left: 150px;
+}
+#cuerpo>#inputTe{
+    width: 150px;
+    height: 25px;
+    position: relative;
+}
+#ponderacion{
+    float: right;
+    margin-top: -430px;
+    margin-right: 15%;
+}
+#por1{
+    width: 120px;
+    float: left;
+    margin-top: -410px;
+    margin-left: 1250px;
+    text-align: center;
+}
+#fechaCompromiso{
+    float: right;
+    margin-top: -370px;
+    margin-right: 12%;
+}
+#por2{
+    width: 180px;
+    float: left;
+    margin-top: -350px;
+    margin-left: 1250px;
+    text-align: center;
+}
+#unidadMedida{
+    float: right;
+    margin-top: -310px;
+    margin-right: 12%;
+}
+#por3{
+    width: 180px;
+    float: left;
+    margin-top: -290px;
+    margin-left: 1250px;
+    text-align: center;
+}
+
+.titulo{
+    width: 35%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    border-radius: 10px;
+
+}
+.titulo>p{
+    font-size: 28px;
+    color: rgb(2, 104, 19);
+}
+.titulo>h5{
+    color: crimson;
+    font-size: 18px;
+    font-style: italic;
+    text-align: center;
+}
+.descripcionObj{
+    width: 70%;
+    height: 200px;
+    float: right;
+    margin-right: 20px;
+    border: 1px solid black;
+
+}
+.esp{
+    width: 97%;
+    height: 10px;
+    background-color: blue;
+    margin-top: 15px;
+    float: left;
+    margin-left: 25px; 
+}
+#link{
+    float: left;
+    margin-left: 50px;
+    font-size: 16px;
+}
+.separador{
+    width: 90%;
+    height: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(0, 129, 129);
+}
+#imagenhraei{
+    width: 100%;
+    height: 280px;
+    background-color:blue;
+    background-image: url(http://asch.com.mx/images/resource/proyectos/HospitalAltaEspecialidadIxtapaluca01.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 280px;
+    margin-top: 100px;
+}
+
+
